@@ -1,7 +1,8 @@
 def roll_call_dwarves(list)# code an argument here
 dwarves = []
 %w(list).each_with_index { |dwarf,index|
-dwarves[dwarf] = index + 1 }
+dwarves[dwarf] = index + 1 
+}
   # Your code here
 end
 
