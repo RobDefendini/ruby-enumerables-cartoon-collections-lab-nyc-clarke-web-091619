@@ -16,7 +16,7 @@ end
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
   # short_words = ["puff", "go", "two"]
-  calls_long.collect do |calls|
+  calls_long.map do |calls|
     calls.size < 4 
   end
 end
