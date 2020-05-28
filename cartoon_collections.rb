@@ -10,7 +10,7 @@ def summon_captain_planet(planateer_calls) # code an argument here
   call = []
   planeteer_calls.each_with_index do | element |
     call << "#{element}!"
-   p call.capitalize
+   p call.capitalize()
   end
 end
 
