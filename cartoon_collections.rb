@@ -1,10 +1,7 @@
-def roll_call_dwarves(list)# code an argument here
-dwarves = []
-%w(list).each_with_index { |dwarf,index|
-dwarves[dwarf] = index + 1 
-}
-puts dwarves
-  # Your code here
+def roll_call_dwarves(dwarves)# code an argument here
+dwarves.each_with_index do |dwarf, num|
+    puts "Happy Birthday #{dwarf}! You are now #{index + 1} years old!"
+  end
 end
 
 def summon_captain_planet# code an argument here
