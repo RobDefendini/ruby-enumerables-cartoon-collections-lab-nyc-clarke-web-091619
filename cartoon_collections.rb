@@ -1,5 +1,5 @@
 def roll_call_dwarves(list)# code an argument here
-
+%w(list)
 
   # Your code here
 end
