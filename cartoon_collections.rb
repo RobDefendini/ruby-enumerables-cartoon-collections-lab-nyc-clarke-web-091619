@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planateer_calls) # code an argument here
   # Your code here
-  #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   planeteer_calls.each_with_index do | element |
     puts "#{element}!"
   end
