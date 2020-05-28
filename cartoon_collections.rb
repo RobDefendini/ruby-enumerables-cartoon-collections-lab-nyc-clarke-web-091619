@@ -1,4 +1,5 @@
 def roll_call_dwarves(list)# code an argument here
+i = 1 
 list.index
 list.each do |dwarf, num|
 
