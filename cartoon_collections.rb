@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
 dwarves.each_with_index do |dwarf, num|
-    puts "Happy Birthday #{dwarf}! You are now #{index + 1} years old!"
+    puts  #{dwarf} #{index + 1} 
   end
 end
 
