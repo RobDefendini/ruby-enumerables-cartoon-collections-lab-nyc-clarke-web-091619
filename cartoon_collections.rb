@@ -15,11 +15,13 @@ end
 ####
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
-  # short_words = ["puff", "go", "two"]
-  calls_long.each do |calls|
-    if calls.size < 4
-      return true 
+  answer = false
+  long_planteer_calls.each do |call|
+    if call.length > 4
+      answer = true
+    end
   end
+    answer
 end
 
 def find_the_cheese# code an argument here
