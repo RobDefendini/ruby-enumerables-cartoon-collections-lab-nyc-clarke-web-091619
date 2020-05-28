@@ -3,7 +3,7 @@ dwarves = []
 %w(list).each_with_index { |dwarf,index|
 dwarves[dwarf] = index + 1 
 }
-p dwarves
+puts dwarves
   # Your code here
 end
 
