@@ -15,9 +15,8 @@ end
 ####
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
-  if calls_long.size  
-#else
-#end
+  # short_words = ["puff", "go", "two"]
+  calls_long.size  
 end
 
 def find_the_cheese# code an argument here
