@@ -18,6 +18,7 @@ def long_planeteer_calls(calls_long)# code an argument here
   # short_words = ["puff", "go", "two"]
   calls_long.collect do |calls|
     calls.size < 4 
+  end
 end
 
 def find_the_cheese# code an argument here
